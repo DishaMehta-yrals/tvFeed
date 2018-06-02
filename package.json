@@ -1,0 +1,26 @@
+{
+  "name": "gist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "axios": "^0.18.0",
+    "flowplayer-hlsjs": "github:flowplayer/flowplayer-hlsjs",
+    "material-ui": "^0.20.1",
+    "md5": "^2.2.1",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-flow-player": "^1.1.9",
+    "react-player": "^1.6.1",
+    "react-router": "^3.2.1",
+    "react-router-dom": "^4.3.0-rc.3",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build --history-api-fallback",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

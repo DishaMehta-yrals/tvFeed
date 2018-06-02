@@ -1,0 +1,132 @@
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v37/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.pmd-card-actions {
+    text-align: end;
+}
+
+.left {
+    float: left;
+    position: relative;
+    left: 12px;
+    font-size: 14px;
+    top: 6px;
+}
+
+/*============================== grid / list ================================*/
+
+.col-sm-3 img.img-responsive {
+    position: relative;
+    top: 5px;
+}
+
+.top {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.top button.btn.pmd-btn-flat.pmd-ripple-effect.btn-primary {
+    background: #fff;
+    margin: 5px;
+    position: relative;
+    right: 95px;
+    min-width: 35px;
+    height: 33px;
+}
+
+.box.green {
+  background-color: green; 
+}
+
+/*================================== watch video ========================*/
+
+.col-md-5 h2 {
+    margin: 8px 0;
+    text-align: center;
+    color: #5691f4;
+    margin-bottom: 32px;
+}
+
+.col-md-5 .col-sm-6 {
+    text-align: center;
+}
+
+.col-md-5.margin-top {
+    margin-top: 55px;
+}
+
+/*=========================== button ========================*/
+button.btn.btn-2.pmd-btn-flat.pmd-ripple-effect.btn-primary {
+    background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(88, 112, 132)), color-stop(1, rgb(37, 39, 77)) );
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+.center button{
+  margin: 10px;
+}
+
+button.btn.pmd-btn-flat.pmd-ripple-effect.btn-primary:focus {
+    background: #64b5f6;
+    color: #fff;
+}
+
+#myDIV {
+    cursor: pointer;
+    position: relative;
+}
+
+#cover {
+    position: absolute;
+    height: 20pc;
+    width: 100%;
+    z-index: 1;
+    background-color: #ddd;
+    opacity: 0.3;
+}
+.right {
+  padding: 10px;
+    text-align: right;
+}
+.right h2 {
+    text-align: left;
+}
